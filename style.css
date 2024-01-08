@@ -1,0 +1,120 @@
+ .headline {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(226, 119, 43);
+    font-style: inherit;
+    caret-color: aquamarine;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+}
+.menu {
+    text-align: center;
+    align-items: center;
+    background: rgb(134, 134, 134);
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*מצאתי בגוגל */
+    margin-top: 0px;
+    border: 10px solid;
+}
+.link {
+    width: fit-content;
+    margin: 10px;
+    display: flex;
+    border: 1px solid;
+    border-color: black;
+    direction: rtl;
+    align-items: center; 
+}
+.link>a{
+    font-size: small;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sec1{
+    display: flex;
+    background-color: rgb(134, 134, 134);
+    width: fit-content;
+    flex-direction: row;
+    margin: 5%;
+    border: 10px solid;
+    
+}
+#sec2{
+    display: flex;
+    background-color: rgb(173, 209, 195);
+    width: fit-content;
+    flex-direction: row;
+    margin: 5%;
+    border: 10px solid;
+}
+#sec3{
+    display: flex;
+    background-color: rgb(42, 57, 65);
+    width: fit-content;
+    flex-direction: row;
+    margin: 5%;
+    border: 10px solid;
+}
+section > dev > img{
+    width: 200px;
+    height :100px;
+    border-width: 6px;
+    border: 6px solid;
+    border-color: black
+}
+section>h2{
+    margin: 1%;
+}
+.cards{
+    width: fit-content;
+    background: rgb(218, 218, 218);
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    border: 6px solid;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    
+}
+.card{
+    
+    width: 200px;
+    height: 320px;
+    background: rgb(255, 255, 255);
+    margin: 10px;
+    border: 6px solid;
+    border-color: black;
+    text-align: center;
+    
+}
+.card>img{
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+}
+.footer{
+
+background-image: url(https://dmrqkbkq8el9i.cloudfront.net/Pictures/780xany/7/5/5/211755_durianunsplash_38959_crop.jpg);
+
+width: auto;
+    height: 320px;
+}
+.menufooter
+{
+ 
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*מצאתי בגוגל */
+    margin-top: 0px;
+    
+}
+.menufooter>li>a{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
