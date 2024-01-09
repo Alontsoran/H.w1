@@ -1,33 +1,33 @@
  .headline {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(226, 119, 43);
+    color: rgb(85, 67, 64);
     font-style: inherit;
-    caret-color: aquamarine;
     text-align: center;
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgb(79, 75, 75);
+    
 }
 .menu {
     text-align: center;
     align-items: center;
-    background: rgb(134, 134, 134);
+    background: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     justify-content: center; /*מצאתי בגוגל */
     margin-top: 0px;
-    border: 10px solid;
+   
 }
 .link {
     width: fit-content;
     margin: 10px;
     display: flex;
-    border: 1px solid;
-    border-color: black;
-    direction: rtl;
     align-items: center; 
+    font-size: x-large;
 }
 .link>a{
     font-size: small;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  font-size: larger;
 }
 *
 {
@@ -59,7 +59,7 @@
     margin: 5%;
     border: 10px solid;
 }
-section > dev > img{
+section > div > img{
     width: 200px;
     height :100px;
     border-width: 6px;
@@ -68,6 +68,10 @@ section > dev > img{
 }
 section>h2{
     margin: 1%;
+    font-size:50px
+}
+section>p{
+    font-size:25px
 }
 .cards{
     width: fit-content;
@@ -76,8 +80,7 @@ section>h2{
     flex-direction: row;
     margin-top: 0px;
     border: 6px solid;
-    padding-left: 10%;
-    padding-right: 10%;
+  
     
     
 }
@@ -106,7 +109,7 @@ width: auto;
 }
 .menufooter
 {
- 
+
     text-align: center;
     display: flex;
     flex-direction: row;
