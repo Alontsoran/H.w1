@@ -37,7 +37,7 @@
 
 #section_smell{
     display: flex;
-    background-color: rgb(134, 134, 134);
+    background-color: rgb(194, 188, 188);
     width: fit-content;
     flex-direction: row;
     margin: 5%;
@@ -46,7 +46,7 @@
 }
 #section_fruitsize{
     display: flex;
-    background-color: rgb(173, 209, 195);
+    background-color: rgb(184, 223, 122);
     width: fit-content;
     flex-direction: row;
     margin: 5%;
@@ -54,7 +54,7 @@
 }
 #section_Pricemore{
     display: flex;
-    background-color: rgb(42, 57, 65);
+    background-color: rgb(178, 194, 202);
     width: fit-content;
     flex-direction: row;
     margin: 5%;
