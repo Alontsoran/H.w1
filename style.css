@@ -12,7 +12,7 @@
     background: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
-    justify-content: center; /*מצאתי בגוגל */
+    justify-content: center; 
     margin-top: 0px;
    
 }
@@ -34,7 +34,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#sec1{
+#section_smell{
     display: flex;
     background-color: rgb(134, 134, 134);
     width: fit-content;
@@ -43,7 +43,7 @@
     border: 10px solid;
     
 }
-#sec2{
+#section_fruitsize{
     display: flex;
     background-color: rgb(173, 209, 195);
     width: fit-content;
@@ -51,7 +51,7 @@
     margin: 5%;
     border: 10px solid;
 }
-#sec3{
+#section_Pricemore{
     display: flex;
     background-color: rgb(42, 57, 65);
     width: fit-content;
@@ -80,6 +80,7 @@ section>p{
     flex-direction: row;
     margin-top: 0px;
     border: 6px solid;
+    
   
     
     
@@ -115,9 +116,15 @@ width: auto;
     flex-direction: row;
     justify-content: center; /*מצאתי בגוגל */
     margin-top: 0px;
+    border-top: 1px;
+    border-color: black;
+
     
 }
 .menufooter>li>a{
     color: rgb(255, 255, 255);
     font-size: x-large;
+}
+html {
+    scroll-behavior: smooth;
 }
