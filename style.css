@@ -1,3 +1,5 @@
+
+
 html {
     scroll-behavior: smooth;
     background-color: rgb(243, 242, 218);
@@ -35,8 +37,7 @@ html {
   color: black;
   font-size: larger;
 }
-*
-{
+*{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -110,12 +111,9 @@ section>p{
     object-fit: cover;
 }
 .footer{
-
 background-image: url(./images/211755_durianunsplash_38959_crop.jpg);
-
 width: auto;
     height: 320px;
-    
 }
 .menufooter
 {
